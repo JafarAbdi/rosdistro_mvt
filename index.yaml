@@ -5,7 +5,7 @@
 distributions:
   melodic:
     distribution: melodic/distribution.yaml
-    distribution_cache: http://localhost/ros/rosdistro_test/melodic-cache.yaml.gz
+    distribution_cache: http://localhost:8000/ros/rosdistro_test/melodic-cache.yaml.gz
     # doc_builds: [melodic/doc-build.yaml]
     # release_builds: [melodic/release-build.yaml]
     # source_builds: [melodic/source-build.yaml]
