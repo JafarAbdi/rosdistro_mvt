@@ -2,7 +2,7 @@
 # ROS source-build file
 # see REP 137: http://ros.org/reps/rep-0137.html
 ---
-jenkins_url: http://localhost:8080
+jenkins_url: http://localhost:8010
 notifications:
   committers: false
   emails:
