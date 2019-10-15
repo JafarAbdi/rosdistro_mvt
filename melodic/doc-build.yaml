@@ -16,7 +16,7 @@ targets:
     apt_mirrors:
     - http://localhost/building/ubuntu melodic main
     apt_keys:
-    - http://packages.ros.org/ros.key
+    - http://localhost/public.key
   ubuntu:
     bionic:
       amd64:
