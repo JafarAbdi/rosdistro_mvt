@@ -11,7 +11,7 @@ notifications:
 targets:
   _config:
     apt_mirrors:
-    - http://localhost/building/ubuntu melodic main
+    - http://localhost/building/ubuntu DISTRO main
     apt_keys:
     - http://localhost/public.key
   ubuntu:
