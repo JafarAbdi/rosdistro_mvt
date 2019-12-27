@@ -22,11 +22,7 @@ repositories:
       version: melodic-devel
     status: developed
   moveit:
-    doc:
-      type: git
-      url: https://github.com/ros-planning/moveit.git
-      version: melodic-devel
-    release:
+    source:
       packages:
       - chomp_motion_planner
       - moveit
@@ -55,11 +51,6 @@ repositories:
       - moveit_runtime
       - moveit_setup_assistant
       - moveit_simple_controller_manager
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/ros-planning/moveit.git
-      version: 1.0.2-1
-    source:
       type: git
       url: https://github.com/ros-planning/moveit.git
       version: melodic-devel
