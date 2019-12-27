@@ -14,18 +14,55 @@ repositories:
     release:
       tags:
         release: release/melodic/{package}/{version}
-      url: https://github.com/PickNikRobotics/rosparam_shortcuts-release.git
-      version: 0.3.2-1
+      url: https://github.com/JafarAbdi/rosparam_shortcuts.git
+      version: melodic-devel
     source:
       type: git
       url: https://github.com/JafarAbdi/rosparam_shortcuts.git
       version: melodic-devel
     status: developed
   moveit:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit.git
+      version: melodic-devel
+    release:
+      packages:
+      - chomp_motion_planner
+      - moveit
+      - moveit_chomp_optimizer_adapter
+      - moveit_commander
+      - moveit_controller_manager_example
+      - moveit_core
+      - moveit_experimental
+      - moveit_fake_controller_manager
+      - moveit_kinematics
+      - moveit_planners
+      - moveit_planners_chomp
+      - moveit_planners_ompl
+      - moveit_plugins
+      - moveit_ros
+      - moveit_ros_benchmarks
+      - moveit_ros_control_interface
+      - moveit_ros_manipulation
+      - moveit_ros_move_group
+      - moveit_ros_perception
+      - moveit_ros_planning
+      - moveit_ros_planning_interface
+      - moveit_ros_robot_interaction
+      - moveit_ros_visualization
+      - moveit_ros_warehouse
+      - moveit_runtime
+      - moveit_setup_assistant
+      - moveit_simple_controller_manager
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/ros-planning/moveit.git
+      version: master
     source:
       type: git
-      url: https://github.com/JafarAbdi/moveit.git
-      version: pr-fix_versioning
+      url: https://github.com/ros-planning/moveit.git
+      version: melodic-devel
     status: developed
 type: distribution
 version: 1
