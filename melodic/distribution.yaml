@@ -7,15 +7,6 @@ release_platforms:
   - bionic
 repositories:
   rosparam_shortcuts:
-    doc:
-      type: git
-      url: https://github.com/JafarAbdi/rosparam_shortcuts.git
-      version: melodic-devel
-    release:
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/JafarAbdi/rosparam_shortcuts.git
-      version: melodic-devel
     source:
       type: git
       url: https://github.com/JafarAbdi/rosparam_shortcuts.git
