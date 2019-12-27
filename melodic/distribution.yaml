@@ -53,7 +53,7 @@ repositories:
       - moveit_simple_controller_manager
       type: git
       url: https://github.com/ros-planning/moveit.git
-      version: melodic-devel
+      version: master
     status: developed
 type: distribution
 version: 1
