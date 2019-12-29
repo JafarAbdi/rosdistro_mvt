@@ -72,8 +72,8 @@ repositories:
       - moveit_simple_controller_manager
       tags:
         release: release/melodic/{package}/{version}
-      url: https://github.com/ros-gbp/moveit-release.git
-      version: 1.0.2-1
+      url: https://github.com/JafarAbdi/moveit
+      version: pr-fix_versioning
     source:
       type: git
       url: https://github.com/JafarAbdi/moveit.git
