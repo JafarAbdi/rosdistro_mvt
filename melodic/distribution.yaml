@@ -39,8 +39,8 @@ repositories:
   moveit:
     doc:
       type: git
-      url: https://github.com/ros-planning/moveit.git
-      version: melodic-devel
+      url: https://github.com/JafarAbdi/moveit.git
+      version: pr-fix_versioning
     release:
       packages:
       - chomp_motion_planner
@@ -72,7 +72,7 @@ repositories:
       - moveit_simple_controller_manager
       tags:
         release: release/melodic/{package}/{version}
-      url: https://github.com/JafarAbdi/moveit
+      url: https://github.com/JafarAbdi/moveit.git
       version: pr-fix_versioning
     source:
       type: git
