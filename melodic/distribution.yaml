@@ -48,7 +48,7 @@ repositories:
       - moveit_chomp_optimizer_adapter
       - moveit_commander
       - moveit_core
-      - moveit_experimental
+      - moveit_jog_arm
       - moveit_fake_controller_manager
       - moveit_kinematics
       - moveit_planners
@@ -56,6 +56,7 @@ repositories:
       - moveit_planners_ompl
       - moveit_plugins
       - moveit_ros
+      - moveit_ros_occupancy_map_monitor
       - moveit_ros_benchmarks
       - moveit_ros_control_interface
       - moveit_ros_manipulation
