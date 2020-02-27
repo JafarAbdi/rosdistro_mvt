@@ -6,21 +6,6 @@ release_platforms:
   ubuntu:
   - bionic
 repositories:
-  rosparam_shortcuts:
-    doc:
-      type: git
-      url: https://github.com/davetcoleman/rosparam_shortcuts.git
-      version: melodic-devel
-    release:
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/PickNikRobotics/rosparam_shortcuts-release.git
-      version: 0.3.3-1
-    source:
-      type: git
-      url: https://github.com/JafarAbdi/rosparam_shortcuts.git
-      version: melodic-devel
-    status: developed
   moveit_msgs:
     doc:
       type: git
